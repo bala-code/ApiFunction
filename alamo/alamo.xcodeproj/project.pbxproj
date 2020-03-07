@@ -16,6 +16,7 @@
 		864EA43C2412EED0009FF7BA /* service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EA43B2412EED0009FF7BA /* service.swift */; };
 		864EA43E2412F48D009FF7BA /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864EA43D2412F48D009FF7BA /* Country.swift */; };
 		86A6FF02241334080043C0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A6FF00241334080043C0B5 /* Main.storyboard */; };
+		86DDBB3D24133C2F00F3B6C9 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DDBB3C24133C2F00F3B6C9 /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		864EA43B2412EED0009FF7BA /* service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = service.swift; sourceTree = "<group>"; };
 		864EA43D2412F48D009FF7BA /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		86A6FF01241334080043C0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/API-integration-alamo/Alamofire-Tutorial/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		86DDBB3C24133C2F00F3B6C9 /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 		E675DD0B721F1EF47BF44F08 /* Pods-alamo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-alamo.debug.xcconfig"; path = "Target Support Files/Pods-alamo/Pods-alamo.debug.xcconfig"; sourceTree = "<group>"; };
 		E8DBA57D57F0DB41E0EC4F28 /* Pods_alamo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_alamo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 				864EA4302412ECCC009FF7BA /* Assets.xcassets */,
 				864EA4322412ECCC009FF7BA /* LaunchScreen.storyboard */,
 				864EA4352412ECCC009FF7BA /* Info.plist */,
+				86DDBB3C24133C2F00F3B6C9 /* detailViewController.swift */,
 			);
 			path = alamo;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				864EA4282412ECCB009FF7BA /* AppDelegate.swift in Sources */,
 				864EA43E2412F48D009FF7BA /* Country.swift in Sources */,
 				864EA42A2412ECCB009FF7BA /* SceneDelegate.swift in Sources */,
+				86DDBB3D24133C2F00F3B6C9 /* detailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
