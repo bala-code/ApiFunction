@@ -15,9 +15,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="D2l-tB-uq9">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="epita" id="3BR-Pc-aec">
+                                <rect key="frame" x="87" y="384" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BalaKrishna Vempalli" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vob-MN-Nom">
                                 <rect key="frame" x="10" y="94" width="394" height="40"/>
@@ -47,23 +47,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Lq-my-QMj" secondAttribute="trailing" constant="10" id="2x1-0m-siO"/>
                             <constraint firstItem="UWk-5P-7cI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="5fQ-qi-yM9"/>
-                            <constraint firstItem="D2l-tB-uq9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DbU-WQ-Apr"/>
                             <constraint firstItem="UWk-5P-7cI" firstAttribute="top" secondItem="Vob-MN-Nom" secondAttribute="bottom" constant="40" id="FpS-gR-9a3"/>
                             <constraint firstItem="Vob-MN-Nom" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="Q6V-p7-Xsi"/>
                             <constraint firstItem="Vob-MN-Nom" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="QKJ-ZR-rgC"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Vob-MN-Nom" secondAttribute="trailing" constant="10" id="edm-2h-LQI"/>
-                            <constraint firstItem="D2l-tB-uq9" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="fMb-W0-o8Y"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D2l-tB-uq9" secondAttribute="trailing" id="kNz-he-1wX"/>
                             <constraint firstItem="9Lq-my-QMj" firstAttribute="top" secondItem="UWk-5P-7cI" secondAttribute="bottom" constant="40" id="khJ-4L-kAg"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D2l-tB-uq9" secondAttribute="bottom" id="m39-Zd-mCU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UWk-5P-7cI" secondAttribute="trailing" constant="10" id="sLe-A1-Qv7"/>
                             <constraint firstItem="9Lq-my-QMj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="yBJ-fR-bZ7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY" colorLabel="IBBuiltInLabel-Green"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -71,4 +67,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="epita" width="362" height="139"/>
+    </resources>
 </document>
